@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <html lang="en" class="theme-dark"> --> <!-- This class will be attached to this html and the value will be changed using JS which will control the theme of our website if the class of this html will be theme-dark the theme of website will be dark and so on.-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Switcher</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="container">
+        <div class="branding">Theme Switcher</div>
+        <ul>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Courses</a></li>
+            <li>
+                <select id="themeSwitcher">
+                    <option value="">Select a theme</option>
+                    <option value="theme-light">Light</option> <!-- this option's value will be passed to JS which will set the background of website -->
+                    <option value="theme-dark">Dark</option>
+                    <option value="theme-ocean">Ocean</option>
+                    <option value="theme-sepia">Sepia</option>
+                </select>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="container">
+        <div class="">
+            <h1>Learn programming easy way</h1>
+            <p>Millions of developers already found their dreaam jobs</p>
+            <button>Join now</button>
+        </div>
+        <div class="hero-image">
+            <img src="./4.jpg" alt="img">
+        </div>
+    </header>
+
+    <section class="tutorials">
+        
+    </section>
+
+    <script src="./sun.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
